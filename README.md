@@ -4,13 +4,13 @@ the app is made using flutter,
 api used -> wolframalpha api
 
 dependencies used:
-flutter:
-    sdk: flutter
-  http: ^1.3.0
-  sqflite: any
-  path_provider: any
-  path: any
-  intl: ^0.20.2
+ -flutter:
+   - sdk: flutter
+ - http: ^1.3.0
+ - sqflite: any
+ - path_provider: any
+ - path: any
+ - intl: ^0.20.2
 
 dependencies can be checked in the pubspec.ymal file too.
 
