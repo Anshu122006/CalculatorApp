@@ -2,6 +2,7 @@
 The libs app/libs folder contains the code for the app,
 the app is made using flutter,
 api used -> wolframalpha api
+
 dependencies used:
 flutter:
     sdk: flutter
