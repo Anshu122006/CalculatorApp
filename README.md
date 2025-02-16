@@ -12,7 +12,7 @@ dependencies used:
  - path: any
  - intl: ^0.20.2
 
-dependencies can be checked in the pubspec.ymal file too.
+Dependencies can be checked in the pubspec.ymal file too.
 
 Key features of the app:
 - In normal mode, it calculates and stores the result dynamically
