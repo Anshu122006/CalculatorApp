@@ -19,3 +19,5 @@ Key features of the app:
 - Keeps a history of the calculations
 - Can calculate integrals, derivatives and can solve equations (through the api)
 - auto-checks for a valid input, ie, user cannot enter an invalid input
+
+An apk of the app is also present for testing.
