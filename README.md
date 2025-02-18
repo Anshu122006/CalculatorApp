@@ -6,7 +6,7 @@ framework -> flutter, <br>
 database -> sqlite, <br>
 api used -> wolframalpha api <br>
 
-dependencies used:
+dependencies used: <br>
  -flutter:
    - sdk: flutter
  - http: ^1.3.0
