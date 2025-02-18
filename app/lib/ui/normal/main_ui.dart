@@ -1,7 +1,5 @@
 import 'package:calculator_app/ui/history/history_list.dart';
 import 'package:calculator_app/ui/normal/keypad.dart';
-// import 'package:calculator_app/ui/input/arithmetic.dart';
-// import 'package:calculator_app/ui/input/mathfunctions.dart';
 import 'package:calculator_app/ui/normal/input.dart';
 import 'package:calculator_app/ui/normal/output.dart';
 import 'package:flutter/material.dart';
