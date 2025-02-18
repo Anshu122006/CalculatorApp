@@ -7,15 +7,13 @@ database -> sqlite, <br>
 api used -> wolframalpha api <br>
 
 dependencies used: <br>
- -flutter:
-   - sdk: flutter
  - http: ^1.3.0
  - sqflite: any
  - path_provider: any
  - path: any
  - intl: ^0.20.2
 
-Dependencies can be checked in the pubspec.ymal file too.
+(Dependencies can be checked in the pubspec.ymal file too) <br>
 
 Key features of the app:
 - In normal mode, it calculates and stores the result dynamically
