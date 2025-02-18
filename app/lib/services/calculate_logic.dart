@@ -1,4 +1,3 @@
-// ignore_for_file: avoid_print
 import 'package:calculator_app/ui/symbols.dart';
 import 'package:math_expressions/math_expressions.dart';
 
@@ -109,9 +108,7 @@ class Calculate {
     for (int i = 0; i < openBrackets; i++) {
       newExp += ")";
     }
-
-    print(newExp);
-
+    
     return newExp;
   }
 
@@ -137,7 +134,6 @@ class Calculate {
       if (resultList.isEmpty) {
         resultList.add("");
       }
-      // print(resultList[l]);
       return resultList[l];
     }
   }
