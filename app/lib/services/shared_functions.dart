@@ -1,3 +1,5 @@
+// to ennableto distinct widgets to call specific functions inside each other
+
 class SharedFunctions {
   static final SharedFunctions _instance = SharedFunctions._();
   SharedFunctions._();
