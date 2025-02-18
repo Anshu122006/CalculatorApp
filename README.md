@@ -1,6 +1,9 @@
 # CalculatorApp (Android)
 The libs app/libs folder contains the code for the app,
-the app is made using flutter,
+
+language -> dart,
+framework -> flutter,
+database -> sqlite,
 api used -> wolframalpha api
 
 dependencies used:
