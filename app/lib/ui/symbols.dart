@@ -1,3 +1,4 @@
+// class to store some special unid=code symbols
 class Symbols {
   static const String cross = "×";
   static const String div = "÷";
