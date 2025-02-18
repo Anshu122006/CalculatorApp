@@ -39,7 +39,7 @@ class Button extends StatelessWidget {
                         if (value == true)
                           {
                             SharedFunctions.instance.reloadInput?.call(),
-                            SharedFunctions.instance.reloadOutput?.call()
+                            SharedFunctions.instance.reloadOutput?.call(),
                           }
                       });
                   break;
@@ -89,8 +89,6 @@ class Button extends StatelessWidget {
                 default:
                   SharedFunctions.instance.takeInput?.call(text);
               }
-
-              // Calculate.instance.calc("sin(45)");
             },
             style: ElevatedButton.styleFrom(
               padding: EdgeInsets.all(padding),
