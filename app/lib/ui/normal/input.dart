@@ -62,7 +62,6 @@ class _InputDisplayState extends State<InputDisplay> {
     sharedFunctions.takeInput = takeInput;
     sharedFunctions.deleteInput = deleteInput;
     sharedFunctions.clearInput = clearInput;
-    // sharedFunctions.reloadInput = reloadInput;
   }
 
   void takeInput(String input) {
