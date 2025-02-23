@@ -10,7 +10,7 @@ class Calculus {
     switch (type) {
       case "derivative":
         url =
-            "$baseUrl?input=d/dx(${Uri.encodeComponent(expression))&format=plaintext&output=JSON&appid=$wolframApiKey";
+            "$baseUrl?input=d/dx(${Uri.encodeComponent(expression)})&format=plaintext&output=JSON&appid=$wolframApiKey";
         break;
       case "solve":
         url =
@@ -18,7 +18,7 @@ class Calculus {
         break;
       default:
         url =
-            "$baseUrl?input=integrate+(${Uri.encodeComponent(expression))&format=plaintext&output=JSON&appid=$wolframApiKey";
+            "$baseUrl?input=integrate+(${Uri.encodeComponent(expression)})&format=plaintext&output=JSON&appid=$wolframApiKey";
     }
 
     final response = await http.get(Uri.parse(url));
